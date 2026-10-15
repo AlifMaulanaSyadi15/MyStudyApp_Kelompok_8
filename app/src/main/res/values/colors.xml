@@ -1,0 +1,29 @@
+<resources>
+    <!-- warna dasar halaman -->
+    <color name="warna_latar">#F2F5F7</color>
+    <color name="warna_permukaan">#FFFFFF</color>
+    <color name="warna_garis">#E2E8F0</color>
+
+    <!-- teks -->
+    <color name="warna_teks_utama">#16213E</color>
+    <color name="warna_teks_sekunder">#5B6B7C</color>
+
+    <!-- kepala halaman (gradasi) -->
+    <color name="warna_header_mulai">#1A1A2E</color>
+    <color name="warna_header_akhir">#16213E</color>
+
+    <!-- aksen bawaan (sama di kedua mode) -->
+    <color name="warna_aksen">#3DDC84</color>
+    <color name="warna_ikon_latar">#E8F7EE</color>
+
+    <!-- dipakai tombol Reset Pengaturan -->
+    <color name="warna_tombol_reset">#D93025</color>
+
+    <!-- ===== pengembangan tambahan: pilihan warna aksen ===== -->
+    <color name="aksen_hijau">#3DDC84</color>
+    <color name="aksen_biru">#4285F4</color>
+    <color name="aksen_ungu">#8E6CF0</color>
+
+    <!-- latar ikon aplikasi -->
+    <color name="ic_launcher_background">#3DDC84</color>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <!-- parent WAJIB memuat DayNight agar mode gelap bekerja -->
+    <style name="Theme.MyStudyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/warna_aksen</item>
+        <item name="android:windowBackground">@color/warna_latar</item>
+        <item name="android:navigationBarColor">@color/warna_permukaan</item>
+        <!-- ikon status bar gelap di mode terang -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- tema layar splash, dipasang pada MainActivity di Manifest -->
+    <style name="Theme.MyStudyApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/warna_latar</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyStudyApp</item>
+    </style>
+</resources>

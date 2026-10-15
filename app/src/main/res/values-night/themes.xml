@@ -1,0 +1,15 @@
+<resources>
+    <style name="Theme.MyStudyApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/warna_aksen</item>
+        <item name="android:windowBackground">@color/warna_latar</item>
+        <item name="android:navigationBarColor">@color/warna_permukaan</item>
+        <!-- ikon status bar terang di mode gelap -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.MyStudyApp.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/warna_latar</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyStudyApp</item>
+    </style>
+</resources>

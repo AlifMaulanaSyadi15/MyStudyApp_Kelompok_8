@@ -1,0 +1,9 @@
+<!-- latar kepala halaman dengan gradasi -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="18dp" />
+    <gradient
+        android:startColor="@color/warna_header_mulai"
+        android:endColor="@color/warna_header_akhir"
+        android:angle="315" />
+</shape>

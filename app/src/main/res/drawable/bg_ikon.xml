@@ -1,0 +1,6 @@
+<!-- kotak kecil tempat ikon kartu -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="10dp" />
+    <solid android:color="@color/warna_ikon_latar" />
+</shape>

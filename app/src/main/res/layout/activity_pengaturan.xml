@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/warna_latar"
+    android:fillViewport="true">
+
+    <!-- focusableInTouchMode: agar kolom nama tidak langsung fokus saat halaman dibuka -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- judul halaman -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/judul_pengaturan"
+            android:textColor="@color/warna_teks_utama"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_pengaturan"
+            android:textColor="@color/warna_teks_sekunder"
+            android:textSize="13sp" />
+
+        <!-- ===== A. BAHASA ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_bahasa"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgBahasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbIndonesia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_bahasa_id"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbEnglish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_bahasa_en"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbBahasaSistem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_bahasa_sistem"
+                    android:textColor="@color/warna_teks_utama" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ===== B. MODE TAMPILAN ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_tema"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgTema"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbTerang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_terang"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbGelap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_gelap"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbTemaSistem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio_tema_sistem"
+                    android:textColor="@color/warna_teks_utama" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ===== C. UKURAN TEKS (pengembangan tambahan) ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_ukuran"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgUkuran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbKecil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ukuran_kecil"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbSedang"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ukuran_sedang"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbBesar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ukuran_besar"
+                    android:textColor="@color/warna_teks_utama" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ===== D. WARNA AKSEN (pengembangan tambahan) ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_aksen"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgAksen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbAksenHijau"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aksen_hijau_nama"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbAksenBiru"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aksen_biru_nama"
+                    android:textColor="@color/warna_teks_utama" />
+                <RadioButton
+                    android:id="@+id/rbAksenUngu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aksen_ungu_nama"
+                    android:textColor="@color/warna_teks_utama" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- ===== E. NOTIFIKASI (pengembangan tambahan) ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_notifikasi"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swNotifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/desc_notifikasi"
+                android:textColor="@color/warna_teks_sekunder"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- ===== F. PROFIL (pengembangan tambahan) ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kartu"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grup_profil"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:autofillHints="name"
+                android:background="@drawable/bg_input"
+                android:hint="@string/hint_nama"
+                android:imeOptions="actionDone"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:textColor="@color/warna_teks_utama"
+                android:textColorHint="@color/warna_teks_sekunder"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnSimpanNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/btn_simpan_nama" />
+        </LinearLayout>
+
+        <!-- ===== G. RINGKASAN & RESET ===== -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/bg_kotak_ringkasan"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_ringkasan"
+                android:textColor="@color/warna_teks_sekunder"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvRingkasan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/warna_teks_utama"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tvStatusNotifikasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/warna_teks_sekunder"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tvStatusAksen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/warna_teks_sekunder"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <!-- tombol reset: gaya outline agar tulisan merahnya terbaca di atas warna aksen apa pun -->
+        <Button
+            android:id="@+id/btnReset"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/btn_reset"
+            android:textColor="@color/warna_tombol_reset" />
+
+    </LinearLayout>
+</ScrollView>

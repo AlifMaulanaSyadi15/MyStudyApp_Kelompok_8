@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MyStudy App</string>
+
+    <!-- ===== halaman utama ===== -->
+    <string name="judul_utama">Selamat Datang di MyStudy App</string>
+    <string name="sub_utama">Aplikasi pembelajaran untuk mahasiswa.</string>
+    <string name="materi_judul">Materi Kuliah</string>
+    <string name="materi_isi">Rangkuman dan bahan bacaan setiap pertemuan.</string>
+    <string name="jadwal_judul">Jadwal Kelas</string>
+    <string name="jadwal_isi">Pengingat waktu kuliah dan ruang kelas.</string>
+    <string name="tugas_judul">Tugas Praktikum</string>
+    <string name="tugas_isi">Daftar tugas beserta tenggat pengumpulannya.</string>
+    <string name="btn_pengaturan">Pengaturan</string>
+    <string name="sapaan_format">Halo, %1$s! 👋</string>
+
+    <!-- ===== ringkasan pengaturan aktif ===== -->
+    <string name="label_pengaturan_aktif">Pengaturan aktif</string>
+    <string name="ringkasan_format">%1$s • %2$s • %3$s</string>
+    <string name="status_format">%1$s: %2$s</string>
+
+    <!-- ===== label pendek untuk ringkasan ===== -->
+    <string name="singkat_id">Indonesia</string>
+    <string name="singkat_en">English</string>
+    <string name="singkat_sistem">Sistem</string>
+    <string name="singkat_terang">Terang</string>
+    <string name="singkat_gelap">Gelap</string>
+    <string name="singkat_teks">Teks %1$s</string>
+    <string name="singkat_kecil">Kecil</string>
+    <string name="singkat_sedang">Sedang</string>
+    <string name="singkat_besar">Besar</string>
+    <string name="status_aktif">Aktif</string>
+    <string name="status_nonaktif">Nonaktif</string>
+    <string name="singkat_notifikasi">Notifikasi</string>
+    <string name="singkat_aksen">Aksen</string>
+    <string name="aksen_hijau_nama">Hijau</string>
+    <string name="aksen_biru_nama">Biru</string>
+    <string name="aksen_ungu_nama">Ungu</string>
+
+    <!-- ===== halaman pengaturan ===== -->
+    <string name="judul_pengaturan">Pengaturan</string>
+    <string name="sub_pengaturan">Sesuaikan bahasa, tampilan, dan notifikasi aplikasi.</string>
+    <string name="grup_bahasa">Bahasa / Language</string>
+    <string name="radio_bahasa_id">Bahasa Indonesia</string>
+    <string name="radio_bahasa_en">English</string>
+    <string name="radio_bahasa_sistem">Ikuti sistem</string>
+    <string name="grup_tema">Mode Tampilan / Appearance</string>
+    <string name="radio_terang">Mode Terang</string>
+    <string name="radio_gelap">Mode Gelap</string>
+    <string name="radio_tema_sistem">Ikuti sistem</string>
+    <string name="grup_ukuran">Ukuran Teks / Text Size</string>
+    <string name="ukuran_kecil">Kecil</string>
+    <string name="ukuran_sedang">Sedang</string>
+    <string name="ukuran_besar">Besar</string>
+    <string name="grup_aksen">Warna Aksen / Accent Colour</string>
+    <string name="grup_notifikasi">Notifikasi / Notifications</string>
+    <string name="desc_notifikasi">Tampilkan pengingat jadwal dan tugas.</string>
+    <string name="grup_profil">Profil / Profile</string>
+    <string name="hint_nama">Nama Anda</string>
+    <string name="btn_simpan_nama">Simpan Nama</string>
+    <string name="toast_nama_tersimpan">Nama disimpan</string>
+    <string name="toast_nama_dihapus">Nama dihapus</string>
+    <string name="label_ringkasan">Ringkasan Pengaturan</string>
+    <string name="btn_reset">Reset Pengaturan</string>
+
+    <!-- ===== dialog & pesan ===== -->
+    <string name="dialog_reset_judul">Reset pengaturan?</string>
+    <string name="dialog_reset_pesan">Bahasa kembali ke Indonesia, mode kembali ke Terang, ukuran teks Sedang, warna aksen Hijau, dan notifikasi dinonaktifkan. Nama profil tetap tersimpan.</string>
+    <string name="dialog_ya">Ya, reset</string>
+    <string name="dialog_batal">Batal</string>
+    <string name="toast_reset">Pengaturan dikembalikan ke awal</string>
+    <string name="dialog_bahasa_judul">Ganti bahasa?</string>
+    <string name="dialog_bahasa_pesan">Bahasa aplikasi akan diubah ke: %1$s.</string>
+    <string name="dialog_bahasa_ya">Ya, ganti</string>
+
+    <!-- ===== notifikasi ===== -->
+    <string name="notif_channel_nama">Pengingat MyStudy</string>
+    <string name="notif_channel_desc">Pengingat jadwal kuliah dan tugas praktikum.</string>
+    <string name="notif_judul">Notifikasi aktif</string>
+    <string name="notif_isi">Anda akan menerima pengingat jadwal kuliah dan tugas.</string>
+    <string name="toast_izin_notif">Izin notifikasi ditolak</string>
+</resources>

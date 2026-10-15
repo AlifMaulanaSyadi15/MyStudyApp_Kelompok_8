@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MyStudy App</string>
+
+    <!-- ===== main page ===== -->
+    <string name="judul_utama">Welcome to MyStudy App</string>
+    <string name="sub_utama">A learning app for university students.</string>
+    <string name="materi_judul">Course Materials</string>
+    <string name="materi_isi">Summaries and reading lists for every session.</string>
+    <string name="jadwal_judul">Class Schedule</string>
+    <string name="jadwal_isi">Reminders for class time and room.</string>
+    <string name="tugas_judul">Lab Assignments</string>
+    <string name="tugas_isi">Assignment list with their due dates.</string>
+    <string name="btn_pengaturan">Settings</string>
+    <string name="sapaan_format">Hello, %1$s! 👋</string>
+
+    <!-- ===== active settings summary ===== -->
+    <string name="label_pengaturan_aktif">Active settings</string>
+    <string name="ringkasan_format">%1$s • %2$s • %3$s</string>
+    <string name="status_format">%1$s: %2$s</string>
+
+    <!-- ===== short labels for the summary ===== -->
+    <string name="singkat_id">Indonesian</string>
+    <string name="singkat_en">English</string>
+    <string name="singkat_sistem">System</string>
+    <string name="singkat_terang">Light</string>
+    <string name="singkat_gelap">Dark</string>
+    <string name="singkat_teks">Text %1$s</string>
+    <string name="singkat_kecil">Small</string>
+    <string name="singkat_sedang">Medium</string>
+    <string name="singkat_besar">Large</string>
+    <string name="status_aktif">On</string>
+    <string name="status_nonaktif">Off</string>
+    <string name="singkat_notifikasi">Notifications</string>
+    <string name="singkat_aksen">Accent</string>
+    <string name="aksen_hijau_nama">Green</string>
+    <string name="aksen_biru_nama">Blue</string>
+    <string name="aksen_ungu_nama">Purple</string>
+
+    <!-- ===== settings page ===== -->
+    <string name="judul_pengaturan">Settings</string>
+    <string name="sub_pengaturan">Customise the app language, appearance, and notifications.</string>
+    <string name="grup_bahasa">Language</string>
+    <string name="radio_bahasa_id">Bahasa Indonesia</string>
+    <string name="radio_bahasa_en">English</string>
+    <string name="radio_bahasa_sistem">Follow system</string>
+    <string name="grup_tema">Appearance</string>
+    <string name="radio_terang">Light Mode</string>
+    <string name="radio_gelap">Dark Mode</string>
+    <string name="radio_tema_sistem">Follow system</string>
+    <string name="grup_ukuran">Text Size</string>
+    <string name="ukuran_kecil">Small</string>
+    <string name="ukuran_sedang">Medium</string>
+    <string name="ukuran_besar">Large</string>
+    <string name="grup_aksen">Accent Colour</string>
+    <string name="grup_notifikasi">Notifications</string>
+    <string name="desc_notifikasi">Show reminders for schedule and assignments.</string>
+    <string name="grup_profil">Profile</string>
+    <string name="hint_nama">Your name</string>
+    <string name="btn_simpan_nama">Save Name</string>
+    <string name="toast_nama_tersimpan">Name saved</string>
+    <string name="toast_nama_dihapus">Name cleared</string>
+    <string name="label_ringkasan">Settings Summary</string>
+    <string name="btn_reset">Reset Settings</string>
+
+    <!-- ===== dialogs & messages ===== -->
+    <string name="dialog_reset_judul">Reset settings?</string>
+    <string name="dialog_reset_pesan">Language returns to Indonesian, mode returns to Light, text size becomes Medium, accent colour becomes Green, and notifications are turned off. Your profile name is kept.</string>
+    <string name="dialog_ya">Yes, reset</string>
+    <string name="dialog_batal">Cancel</string>
+    <string name="toast_reset">Settings restored to default</string>
+    <string name="dialog_bahasa_judul">Change language?</string>
+    <string name="dialog_bahasa_pesan">The app language will be changed to: %1$s.</string>
+    <string name="dialog_bahasa_ya">Yes, change</string>
+
+    <!-- ===== notifications ===== -->
+    <string name="notif_channel_nama">MyStudy Reminders</string>
+    <string name="notif_channel_desc">Reminders for class schedule and lab assignments.</string>
+    <string name="notif_judul">Notifications on</string>
+    <string name="notif_isi">You will receive class schedule and assignment reminders.</string>
+    <string name="toast_izin_notif">Notification permission denied</string>
+</resources>

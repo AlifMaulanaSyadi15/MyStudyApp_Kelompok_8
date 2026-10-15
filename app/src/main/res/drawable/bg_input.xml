@@ -1,0 +1,7 @@
+<!-- kolom isian nama (pengembangan tambahan: profil) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="10dp" />
+    <solid android:color="@color/warna_latar" />
+    <stroke android:width="1dp" android:color="@color/warna_garis" />
+</shape>
